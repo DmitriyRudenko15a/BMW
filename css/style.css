@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma;
+    max-width: 1200px;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    background-color: #2D2F31;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    margin-top: 30px;
+}
+
+.navigation {
+    font-family: Michroma;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D2F31;
+    word-spacing: 80px;
+    white-space: nowrap;
+    padding: 15px;
+    max-height: 25px;
+}
+.nav-links{
+    text-decoration: 0;
+    font-family: Michroma;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+.nav-links:hover{
+    text-decoration: underline;
+}
+.textcols {
+    white-space: nowrap;
+}
+
+.textcols-item {
+    white-space: normal;
+    display: inline-block;
+    max-width: 15%;
+    vertical-align: top;
+
+}
+
+.image-main {
+    height: 735px;
+    white-space: nowrap;
+    background-attachment: fixed;
+}
+
+.hr-line {
+    max-width: 870px;
+    margin-left: 0%;
+}
+
+.text-align {
+    text-align: justify;
+    margin-right: 90px;
+    font-size: 19px;
+
+}
+
+.img-main-3 {
+    margin-bottom: 10px;
+}
+
+.img-main-2 {
+    white-space: nowrap;
+    background-attachment: fixed;
+}
+
+.text-car {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.text-main {
+    text-align: justify;
+    font-size: 19px;
+    margin-top: 0%;
+    white-space: nowrap;
+}
+
+.textcols .textcols-item:first-child {
+    margin-right: 4%;
+}
+
+.nav-links {
+    text-decoration: 0;
+    font-family: Michroma;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+
+.header-logo {
+    height: 50px;
+    width: 75px;
+    display: flex;
+    justify-content: left;
+}
+
+.header-button {
+    background-color: #2D2F31;
+    color: white;
+    font-family: Michroma;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    border: none;
+    text-decoration: none;
+
+}
+.header-button .a{
+    padding-bottom: 40x;
+    color: #2D2F31;
+}
+.header-button :hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+
+}
+.car {
+    background-image: url("../assets/img/Group 11.png");
+    background-position: relative;
+    background-position: top right;
+
+}
+
+.about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    background-image: url("../assets/img/Group\ 11.png");
+    position: relative;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.clogan-text {
+    font-size: 20px;
+}
+
+.headline {
+    font-weight: bold;
+    text-align: right;
+    font-family: Michroma;
+}
+
+.text-item {
+    text-align: right;
+}
+
+.text-section {
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.textcols-about {
+    white-space: normal;
+    display: inline-block;
+    max-width: 30%;
+    vertical-align: top;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.text-section .textcols-about:last-child {
+    margin-right: 0;
+}
+
+
+
+
+.footer-content {
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.textcols-footer {
+    white-space: normal;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.footer-content .textcols-footer:last-child {
+    margin-right: 0;
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.footer_text {
+    text-align: right;
+}
+
+.M-photo {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.img-foot {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.text-foot {
+    text-align: center;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+body{
+    font-family: Michroma;
+    max-width: 1200px;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    background-color: #2D2F31;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    margin-top: 30px;
+}
+.navigation{ 
+    font-family: Michroma;
+    font-size: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #2D2F31;   
+    word-spacing: 80px;
+    white-space: nowrap;
+}
+.nav-links{ 
+    text-decoration: none; 
+    color: white;
+}
+.nav-links:hover{
+    text-decoration: underline;
+}
+.nav-links{
+    text-decoration: 0;
+    font-family: Michroma;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+.header-logo{ 
+    max-height: 50px; 
+    max-width: 75px; 
+display: flex; 
+justify-content: left; 
+} 
+.header-button {
+    background-color: #2D2F31;
+    color: white;
+    font-family: Michroma;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    border: none;
+    text-decoration: underline;
+
+}
+.header-button .a{
+    padding-bottom: 40x;
+    color: #2D2F31;
+}
+.header-button :hover{
+    text-decoration: underline;
+}
+.comment-content {
+	white-space: nowrap;
+        max-width: 880px;
+        display: flex;
+        justify-content: center;
+        background-color:#354753;
+        border-radius: 5px;
+        padding: 16px; 
+        margin: 16px ; 
+        margin-bottom: 30px;
+        margin-left: 140px;
+
+      
+}
+
+.textcols-comm {
+	white-space: normal;	
+	display: inline-block;
+	max-width: 48%;
+	vertical-align: top;
+    margin-left: 30px;
+   
+}
+.textcols .textcols-item:first-child {
+	margin-right: 4%;
+}
+.text-comment{
+    text-align: justify;
+    margin-right: 100px;
+    width: 600px;
+}
+.text-comm{
+    margin-left: 200px;
+}
+
+
+
+
+
+.footer-content {
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.textcols-footer {
+    white-space: normal;
+    display: inline-block;
+    max-width: 30%;
+    vertical-align: top;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.footer-content .textcols-footer:last-child {
+    margin-right: 0;
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.footer_text {
+    text-align: right;
+}
+
+.M-photo {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.img-foot {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.text-foot {
+    text-align: center;
+}
